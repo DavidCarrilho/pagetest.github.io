@@ -1,37 +1,578 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
 
-You can use the [editor on GitHub](https://github.com/DavidCarrilho/page-test/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- ======================================================================================================================================================== -->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UEMA - Teste Vocacional</title>
+	<link rel="shortcut icon" href="img/SoloLogoChico.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/core.css" />
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+	<link rel="stylesheet" type="text/css" href="css/modal/component.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/snap.svg-min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" href="css/Media.css">
+	<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
+	<div id="container">
+		<div id="slideshow" class="slideshow">
+			<ul>
+<!-- ======================= Tela Inicial ================================================================================================================================= -->
+				<li>
+					<div class="slide">
+						<img class="icon" src="img/SoloLogoChicoBlanco.png" />
+						<div class="text-center">
+							<h1>Universidade do Estado do Maranhaão - UEMA</h1>
+							<h2>Teste Vocacional</h2>
+							<button class="siguienteSlide btnOrange"><span class="glyphicon glyphicon-user"></span> Iniciar</button>
+						</div>
+					</div>
+				</li>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- ======================== Objetivo do Teste Vocacional ================================================================================================================= -->
+				<li>
+					<div class="slide">
+						<img id="Signo" src="img/Signo.png" />
+						<h1>O que é um teste vocacional?</h1>
+						<blockquote class="bck">
+							<p align="justify">É um teste cujo objetivo é guiá-lo na carreira que melhor se adapte aos seus interesses e
+								aptidões.</p>
+						</blockquote>
+						<button class="siguienteSlide btnOrange">
+							<span class="glyphicon glyphicon-chevron-right"></span> Continuar
+						</button>
+					</div>
+				</li>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<!-- ======================== Formulario de Contato ======================================================================================================================== -->
+				<li>
+					<div class="slide">
+						<h2> Formulário de Contato</h2>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+						<form class="cmxform" id="commentForm" method="get" action="">
 
-**Bold** and _Italic_ and `Code` text
+							<label class="formLabel" for="cname">Nome completo</label> <br>
+							<input name="cname" type="text" id="cname" minlength="3" placeholder="Informe seu nome completo" /><span class="glyphicon"></span>
 
-[Link](url) and ![Image](src)
-```
+							<br>
+							<br>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+							<label class="formLabel" for="cemail">E-mail</label> <br>
+							<input name="cemail" type="email" id="cemail" placeholder="Informe seu  E-mail" />
 
-### Jekyll Themes
+							<br>
+							<br>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DavidCarrilho/page-test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+							<label class="formLabel" for="ctel">Telefone</label> <br>
+							<input name="ctel" type="number" id="ctel" placeholder="Telefone" />
 
-### Support or Contact
+							<br>
+							<br>
+							<label class="formLabel" for="cdomicilio">Endereço</label> <br>
+							<input name="cdomicilio" type="text" id="cdomicilio" placeholder="Informe seu endereço" />
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+							<br>
+							<br>
+
+							<label class="formLabel" for="ctutor">Nome do pai ou responsável</label> <br>
+							<input name="ctutor" type="text" id="ctutor" minlength="7" placeholder="Nome completo" />
+							<br>
+							<br>
+
+							<button class="submit btnOrange btn-block" type="submit" value="Submit">
+								<span class="glyphicon glyphicon-send"></span> Enviar
+							</button>
+						</form>
+					</div>
+				</li>
+
+<!-- ======================== Intruções Gerais ======================================================================================================================================================================= -->
+
+				<li>
+					<div class="slide">
+						<h1><span class="glyphicon glyphicon-flag"></span> Instruções Gerais</h1>
+
+						<p class="Instrucciones" align="justify">
+							Em seguida, você será presenteado com 6 blocos com 10 questões cada, no final haverá 60 perguntas que compõem
+							este teste, cada bloco tem uma resolução diferente e um formulário de interação, leia atentamente as instruções
+							e responda a opção que melhor se adapte ao seu sentimento ou com o seu ponto de vista, tendo em conta: </p>
+						<p class="Instrucciones" class="text-center">O que eu gosto de fazer? O que me interessa?</p>
+						<button class="iniciarTest btnOrange" data-modal="modal-4"><span class="glyphicon glyphicon-play"></span> Iniciar
+							Teste</button>
+					</div>
+				</li>
+
+<!-- ======================== bloco 1 ================================================================================================================================================================================== -->
+				<li>
+					<div class="slide">
+						<div class="posBloq1" id="bloco1">
+
+							<div class="caixaDePergunta"></div>
+							<p>
+								<div class="caixaDeResposta">
+									<div class="resp resp4" data-item="4"></div>
+									<div class="resp resp3" data-item="3"></div>
+									<div class="resp resp2" data-item="2"></div>
+									<div class="resp resp1" data-item="1"></div>
+									<div class="resp resp0" data-item="0"></div>
+								</div>
+							</p>
+						</div>
+					</div>
+				</li>
+				<!-- /bloco 1 -->
+
+				<!-- bloco 2 -->
+				<li>
+					<div class="slide">
+						<div id="bloco2">
+							<div class="caixaDePergunta"></div>
+							<p>
+								<div class="caixaDeResposta">
+									<div class="dragResp resp4" data-item="4"></div>
+									<div class="dragResp resp3" data-item="3"></div>
+									<div class="dragResp resp2" data-item="2"></div>
+									<div class="dragResp resp1" data-item="1"></div>
+									<div class="dragResp resp0" data-item="0"></div>
+								</div>
+							</p>
+							<div class="objetoDroppable"></div>
+						</div>
+					</div>
+				</li>
+				<!-- /bloco 2 -->
+
+				<!-- bloco 3 -->
+				<li>
+					<div class="slide">
+						<div class="posBloq3" id="bloco3">
+							<div class="caixaDePergunta"></div>
+							<div class="caixaDeResposta">
+								<table class="preguntasRespuestas"></table>
+								<!-- <input type="button" value="Siguiente" class="btnSiguiente" /> -->
+								<button class="btnSiguiente btnOrange">
+									<span class="glyphicon glyphicon-chevron-right"></span>Continuar
+								</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- /bloco 3 -->
+
+				<!-- bloco 4 -->
+				<li>
+					<div class="slide">
+						<div class="posBloq1" id="bloco4">
+							<div class="caixaDePergunta"></div>
+							<p>
+								<div class="caixaDeResposta">
+									<div class="resp resp4" data-item="4"></div>
+									<div class="resp resp3" data-item="3"></div>
+									<div class="resp resp2" data-item="2"></div>
+									<div class="resp resp1" data-item="1"></div>
+									<div class="resp resp0" data-item="0"></div>
+								</div>
+							</p>
+						</div>
+					</div>
+				</li>
+				<!-- /bloco 4 -->
+
+				<!-- bloco 5 -->
+				<li>
+					<div class="slide">
+						<div id="bloco5">
+							<div class="caixaDePergunta"></div>
+							<p>
+								<div class="caixaDeResposta">
+									<div class="dragResp resp4" data-item="4"></div>
+									<div class="dragResp resp3" data-item="3"></div>
+									<div class="dragResp resp2" data-item="2"></div>
+									<div class="dragResp resp1" data-item="1"></div>
+									<div class="dragResp resp0" data-item="0"></div>
+								</div>
+							</p>
+							<div class="objetoDroppable"></div>
+						</div>
+					</div>
+				</li>
+				<!-- bloco 5 -->
+
+				<!-- bloco 6 -->
+				<li>
+					<div class="slide">
+						<div class="posBloq3" id="bloco6">
+							<div class="caixaDePergunta"></div>
+							<div class="caixaDeResposta">
+								<table class="preguntasRespuestas"></table>
+								<!-- <input type="button" value="Siguiente" class="btnSiguiente" /> -->
+								<button class="btnSiguiente btnOrange">
+									<span class="glyphicon glyphicon-chevron-right"></span>Continuar
+								</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- bloco 6 -->
+
+				<!-- bloco 7 -->
+				<li>
+					<div class="slide">
+						<div class="posBloq7" id="bloco7">
+
+							<div class="caixaDePergunta"></div>
+							<p>
+								<div class="caixaDeResposta">
+									<div class="resp resp4" data-item="4"></div>
+									<div class="resp resp3" data-item="3"></div>
+									<div class="resp resp2" data-item="2"></div>
+									<div class="resp resp1" data-item="1"></div>
+									<div class="resp resp0" data-item="0"></div>
+								</div>
+							</p>
+						</div>
+					</div>
+				</li>
+				<!-- /bloco 7 -->
+
+				<!-- bloco 8 -->
+				<li>
+					<div class="slide">
+						<div id="bloco8">
+							<div class="caixaDePergunta"></div>
+							<p>
+								<div class="caixaDeResposta">
+									<div class="dragResp resp4" data-item="4"></div>
+									<div class="dragResp resp3" data-item="3"></div>
+									<div class="dragResp resp2" data-item="2"></div>
+									<div class="dragResp resp1" data-item="1"></div>
+									<div class="dragResp resp0" data-item="0"></div>
+								</div>
+							</p>
+							<div class="objetoDroppable"></div>
+						</div>
+					</div>
+				</li>
+				<!-- /bloco 8 -->
+
+				<!-- bloco 9 -->
+				<li>
+					<div class="slide">
+						<div class="posBloq9" id="bloco9">
+							<div class="caixaDeResposta">
+								<table class="preguntasRespuestas"></table>
+								<!-- <input type="button" value="Siguiente" class="btnSiguiente" /> -->
+								<button class="btnSiguiente btnOrange">
+									<span class="glyphicon glyphicon-chevron-right"></span>Continuar
+								</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- /bloco 9 -->
+
+				<!-- bloco 10 -->
+				<li>
+					<div class="slide">
+						<div class="posBloq10" id="bloco10">
+							<div class="caixaDePergunta"></div>
+							<p>
+								<div class="caixaDeResposta">
+									<div class="resp resp4" data-item="4"></div>
+									<div class="resp resp3" data-item="3"></div>
+									<div class="resp resp2" data-item="2"></div>
+									<div class="resp resp1" data-item="1"></div>
+									<div class="resp resp0" data-item="0"></div>
+								</div>
+							</p>
+						</div>
+					</div>
+				</li>
+				<!-- /bloco 10 -->
+
+				<!-- bloco 11 -->
+				<li>
+					<div class="slide">
+						<div id="bloco11">
+							<div class="caixaDePergunta"></div>
+							<p>
+								<div class="caixaDeResposta">
+									<div class="dragResp resp4" data-item="4"></div>
+									<div class="dragResp resp3" data-item="3"></div>
+									<div class="dragResp resp2" data-item="2"></div>
+									<div class="dragResp resp1" data-item="1"></div>
+									<div class="dragResp resp0" data-item="0"></div>
+								</div>
+							</p>
+							<div class="objetoDroppable"></div>
+						</div>
+					</div>
+				</li>
+				<!-- bloco 11 -->
+
+				<!-- bloco 12 -->
+				<li>
+					<div class="slide">
+						<div class="posBloq12" id="bloco12">
+							<div class="caixaDeResposta">
+								<table class="preguntasRespuestas"></table>
+								<!-- <input type="button" value="Siguiente" class="btnSiguiente" /> -->
+								<button class="btnSiguiente btnOrange">
+									<span class="glyphicon glyphicon-chevron-right"></span>Continuar
+								</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- bloco 12 -->
+
+				<!-- Resultados -->
+				<li>
+					<div class="slide">
+
+						<div class="containerGrafica">
+							<div class="grid12">
+								Resultados
+							</div>
+							<div class="ladoIzq">
+								<h3>Grafica de Intereses</h3>
+								<div style="width:30%">
+									<canvas id="chart-area" width="300" height="300" />
+								</div>
+							</div>
+							<div class="ladoDer">
+								<h3>Grafica de Aptitudes</h3>
+								<div style="width:30%">
+									<canvas id="apt-area" width="300" height="300" />
+								</div>
+
+								<dl>
+									<dt><button class="btnwaterMelon modalCon1"> Interés por Servicio Social </button></dt>
+									<dt><button class="btnBlueWater modalCon2"> Interés Persuasivo </button></dt>
+									<dt><button class="btnMamey modalCon3"> Interés Verbal </button></dt>
+									<dt><button class="btnGray modalCon4"> Interés por Artes Plasticas </button></dt>
+									<dt><button class="btnstrongGray modalCon5"> Interés Musical </button></dt>
+									<dt><button class="btngreenLimon modalCon6"> Organización y Oficina </button></dt>
+									<dt><button class="btnYellow modalCon7"> Interés Científico </button></dt>
+									<dt><button class="btnBrown modalCon8"> Interés por Cálculo Númerico </button></dt>
+									<dt><button class="btnstrongBlue modalCon9"> Interés Mecánico </button></dt>
+									<dt><button class="btnPurple modalCon10"> Interés por Actividades al Aíre Libre </button></dt>
+								</dl>
+							</div>
+							<div class="clearfix">
+
+								<div class="grid12">
+									Eres apto para las siguientes materias
+									<div class="grid4">a</div>
+									<div class="grid4">b</div>
+									<div class="grid4">c</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- /Resultados -->
+
+			</ul>
+		</div>
+	</div><!-- /container -->
+
+	<!-- Ventana modal Formulario -->
+	<div class="md-modal md-effect-2 modalForm" id="modal-2">
+		<div class="md-content">
+			<h3>Ops! temos um problema!</h3>
+			<div>
+				<p class="text-center">Os campos marcados são necessários, por favor preencha-os!</p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> Fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal instrucciones -->
+	<div class="md-modal md-effect-4 instructions" id="modal-4">
+		<div class="md-content">
+			<h3></h3>
+			<div>
+				<p></p>
+				<button class="md-close btnRed"><span class="glyphicon glyphicon-pencil"></span> Começar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal errores -->
+	<div class="md-modal md-effect-12 modalAlerts" id="modal-12">
+		<div class="md-content">
+			<h3></h3>
+			<div>
+				<p></p>
+				<button class="md-close btnRed"><span class="glyphicon glyphicon-pencil"></span> Fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto1" id="modal-2">
+		<div class="md-content">
+			<h3>Interesse do Serviço Social?</h3>
+			<div>
+				<p>É o prazer de servir aos outros e, antes de tudo, dos necessitados, das crianças e dos idosos. </p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto2" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés Persuasivo?</h3>
+			<div>
+				<p>Es el gusto del trato por la gente, a quienes agrada imponer sus puntos de vista, convencer a los demás respecto
+					a un proyecto, vender algún articulo, etc. </p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto3" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés Verbal?</h3>
+			<div>
+				<p>Es el gusto por la lectura o el placer por expresar sus ideas en forma oral o escrita.</p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto4" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés de Artes Plasticas?</h3>
+			<div>
+				<p>Es el gusto por hacer trabajos de tipo manual, usando combinaciones de colores, materiales, formas y diseñador.</p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto5" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés Musical?</h3>
+			<div>
+				<p>Es un marcado gusto por tocar instrumentos musicales, cantar, bailar, leer sobre música, asistir a conciertos,
+					estudiar la vida de destacados compositores, etc.</p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto6" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés de Organización y Oficina?</h3>
+			<div>
+				<p>Es el gusto por un tipo de trabajo de escritorio que requiere exactitud y precisión.</p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto7" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés Científico?</h3>
+			<div>
+				<p>Es el placer o gusto por investigar la verdadera razón de los hechos o de las cosas, en descubrir sus causas y
+					en resolver problemas de distinta índole, por mera curiosidad científica y sin pensar en los beneficios económicos
+					que puedan resultar de la investigación. </p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto8" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés de Cálculo Númerico?</h3>
+			<div>
+				<p>Es el gusto por trabajar con números.</p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto9" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés Mécanico</h3>
+			<div>
+				<p>Es la preferencia por trabajar con maquinas y herramientas, construir o arreglar objetos mecánicos, muebles,
+					artefactos eléctricos, etc</p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Ventana modal Conceptos -->
+	<div class="md-modal md-effect-2 modalConcepto10" id="modal-2">
+		<div class="md-content">
+			<h3>¿Interés por Actividades al Aíre Libre?</h3>
+			<div>
+				<p>El gusto por pasar la mayor parte del tiempo en el campo, en los bosques o en el mar, también por cultivar
+					plantas y cuidar animales.</p>
+				<button class="md-fecharFormAlert btnRed"><span class="glyphicon glyphicon-pencil"></span> fechar</button>
+			</div>
+		</div>
+	</div>
+	<div class="md-overlay"></div><!-- the overlay element -->
+
+	<!-- Js Compartido -->
+	<script src="js/classie.js"></script>
+
+	<!-- Funcionamiento Slider -->
+	<script src="js/sliderFx.js"></script>
+
+	<!-- Funcionamiento de ventanas Modal -->
+	<script src="js/modal/modalEffects.js"></script>
+
+	<!-- Funcionamiento exVocacional -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/underscore.js"></script>
+	<script src="js/Chart.js"></script>
+	<script src="js/exVocacional.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+
+	<script>
+		(function () {
+
+			// Inicializando SliderFx
+			var sliderObj = new SliderFx(document.getElementById('slideshow'), {
+				easing: 'cubic-bezier(.8,0,.2,1)'
+			});
+
+			// Llamando plugin exVocacional
+			$.exVocacional({
+				slider: sliderObj,
+			});
+
+		})();
+
+	</script>
+</body>
+
+</html>
