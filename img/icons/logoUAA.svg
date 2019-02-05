@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="230px" height="230px" viewBox="0 0 230 230" enable-background="new 0 0 230 230" xml:space="preserve">
+<style>
+  .fillColor{ 
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;
+    fill: none;
+    stroke: #FFEFFC;
+    -webkit-animation: line 4s linear forwards;
+    -o-animation: line 4s linear forwards;
+    animation: line 4s linear forwards;
+  }
+
+  @-webkit-keyframes line {
+    from { stroke-dashoffset: 4000; }
+    to { stroke-dashoffset: 2900; fill: #FFEFFC; }
+  }
+  @-o-keyframes line {
+    from { stroke-dashoffset: 4000; }
+    to { stroke-dashoffset: 2900; fill: #FFEFFC; }
+  }
+  @-moz-keyframes line {
+    from { stroke-dashoffset: 4000; }
+    to { stroke-dashoffset: 2900; fill: #FFEFFC; }
+  }
+  @keyframes line {
+    from { stroke-dashoffset: 4000; }
+    to { stroke-dashoffset: 2900; fill: #FFEFFC; }
+  }
+</style>
+<g>
+  <polygon class="fillColor" points="22.556,29.78 8.409,44.633 8.409,186.811 36.349,212.629 101.425,212.629 115.219,199.896 
+    43.776,199.896 21.849,177.969   "/>
+  <polygon class="fillColor" points="206.467,199.189 220.614,184.336 220.614,42.158 192.674,16.34 127.597,16.34 113.805,29.072 
+    185.246,29.072 207.174,51   "/>
+  <polygon class="fillColor" points="93.291,50.292 64.998,78.232 64.998,156.041 72.071,163.82 86.571,163.82 93.291,156.041  "/>
+  <polygon class="fillColor" points="135.378,177.262 163.673,149.32 163.673,71.513 156.599,63.731 142.098,63.731 135.378,71.513   "/>
+</g>
+</svg>
